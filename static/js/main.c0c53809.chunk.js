@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),o=t(2),c=t.n(o);t(9);var l=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("h1",null," Matthew Profile Reset "))};c.a.render(r.a.createElement(l,null),document.getElementById("root"))},3:function(e,n,t){e.exports=t(10)},9:function(e,n,t){}},[[3,1,2]]]);
-//# sourceMappingURL=main.c0c53809.chunk.js.map
