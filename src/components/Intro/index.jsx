@@ -7,7 +7,6 @@ class Intro extends React.Component {
         return (
             <div className={'introContainer'}>
                 <h1 className={'title'}>Intro Page</h1>
-                <div className={'slant'}></div>
             </div>
         );
     }

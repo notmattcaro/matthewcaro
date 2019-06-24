@@ -2,5 +2,8 @@
     transform: skewY(-3deg) translateY(-50%) translateY(1px);
     width: 100%;
     height: 5.492vw;
+    /* position: relative;
+    padding-bottom: calc(2.746vw + 136px); */
     padding-top: 5.492vw;
+    background-color: whitesmoke;
 }

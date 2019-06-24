@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import SlantLeft from './components/SubComponents/SlantLeft';
 import Intro from './components/Intro';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">
       <h1> NavBar </h1>
       <Intro></Intro>
-      <SlantLeft></SlantLeft>
+      <About></About>
     </div>
   );
 }
