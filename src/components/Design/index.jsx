@@ -2,15 +2,15 @@ import React from 'react';
 import './styles.css';
 import SlantLeftSmoke from '../SubComponents/SlantLeftSmoke';
 
-class About extends React.Component {
+class Design extends React.Component {
     render() {
         return(
-            <div className={'aboutContainer'}>
+            <div className={'designContainer'}>
                 <SlantLeftSmoke/>
-                <h1 className={'title'}>About Page</h1>
+                <h1 className={'title'}>Design Page</h1>
             </div>
         );
     }
 }
 
-export default About;
+export default Design;

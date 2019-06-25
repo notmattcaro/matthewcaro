@@ -3,9 +3,7 @@ import './styles.css';
 
 function SlantLeft() {
   return (
-    <div className="SlantingLeft">
-        
-    </div>
+    <div className="SlantingLeft"></div>
   );
 }
 
