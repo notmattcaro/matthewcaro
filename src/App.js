@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Nav from './components/Nav';
 import Intro from './components/Intro';
 import About from './components/About';
 import Photography from './components/Photography';
@@ -11,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <h1> NavBar </h1>
+      <Nav/>
       <Intro/>
       <About/>
       <Photography/>
