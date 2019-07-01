@@ -111,3 +111,34 @@
     transition: transform .3s ease-in .3s;
     transition: transform .3s ease-in .3s,-webkit-transform .3s ease-in .3s;
 }
+
+
+
+/* ===== HAMBURGER CONTAINER WHEN ACTIVE ===== */
+.hamburger-cross {
+    color: whitesmoke;
+    -webkit-transition: color .2s linear,background-color .2s linear,-webkit-transform .3s;
+    transition: color .2s linear,background-color .2s linear,-webkit-transform .3s;
+    transition: transform .3s,color .2s linear,background-color .2s linear;
+    transition: transform .3s,color .2s linear,background-color .2s linear,-webkit-transform .3s;
+}
+.hamburger-cross:hover {
+    transform: rotate(-90);
+}
+.hamburger-cross .hamburger-topbun {
+    transition: transform .3s ease-in,-webkit-transform .3s ease-in;
+    -webkit-transform: rotate(45deg) scaleX(1.41421);
+    transform: rotate(45deg) scaleX(1.41421);
+}
+.hamburger-cross .hamburger-patty {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear,-webkit-transform .3s ease-in;
+    transition: opacity .15s linear,-webkit-transform .3s ease-in;
+    transition: transform .3s ease-in,opacity .15s linear;
+    transition: transform .3s ease-in,opacity .15s linear,-webkit-transform .3s ease-in;
+}
+.hamburger-cross .hamburger-bottombun {
+    transition: transform .3s ease-in,-webkit-transform .3s ease-in;
+    -webkit-transform: rotate(-45deg) scaleX(1.41421);
+    transform: rotate(-45deg) scaleX(1.41421);
+}
