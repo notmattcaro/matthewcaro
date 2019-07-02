@@ -27,6 +27,7 @@ class Nav extends React.Component {
     render() {
         //==== create variables and logic before the return statement ====
         let hamburgerContainerName = this.state.ishamburgeractive ? 'hamburger-container' : 'hamburger-container hamburger-cross';
+
         let theDimmer = this.state.ishamburgeractive ? '' : 'page-dimmer';
 
         return(
