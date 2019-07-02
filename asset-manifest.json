@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/matthewcaro/static/css/main.e351e129.chunk.css",
+    "main.css": "/matthewcaro/static/css/main.b8a15fa6.chunk.css",
     "main.js": "/matthewcaro/static/js/main.12b56a13.chunk.js",
     "main.js.map": "/matthewcaro/static/js/main.12b56a13.chunk.js.map",
     "runtime~main.js": "/matthewcaro/static/js/runtime~main.2204894e.js",
@@ -8,8 +8,8 @@
     "static/js/2.1bfa6c19.chunk.js": "/matthewcaro/static/js/2.1bfa6c19.chunk.js",
     "static/js/2.1bfa6c19.chunk.js.map": "/matthewcaro/static/js/2.1bfa6c19.chunk.js.map",
     "index.html": "/matthewcaro/index.html",
-    "precache-manifest.125e8e4c508a85deb3298c35bae41902.js": "/matthewcaro/precache-manifest.125e8e4c508a85deb3298c35bae41902.js",
+    "precache-manifest.e0e86a888d2e45c49999f4ac63295061.js": "/matthewcaro/precache-manifest.e0e86a888d2e45c49999f4ac63295061.js",
     "service-worker.js": "/matthewcaro/service-worker.js",
-    "static/css/main.e351e129.chunk.css.map": "/matthewcaro/static/css/main.e351e129.chunk.css.map"
+    "static/css/main.b8a15fa6.chunk.css.map": "/matthewcaro/static/css/main.b8a15fa6.chunk.css.map"
   }
 }
