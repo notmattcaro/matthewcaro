@@ -1,4 +1,5 @@
 import React from 'react';
+import { CSSTransitionGroup } from 'react-transition-group';
 import '../../App.css';
 import './styles.css';
 import './hamburger.css';
@@ -28,7 +29,7 @@ class Nav extends React.Component {
         //==== create variables and logic before the return statement ====
         let hamburgerContainerName = this.state.ishamburgeractive ? 'hamburger-container' : 'hamburger-container hamburger-cross';
 
-        let theDimmer = this.state.ishamburgeractive ? '' : 'page-dimmer';
+        let theDimmer = this.state.ishamburgeractive ? 'nothing' : 'page-dimmer';
 
         return(
             <div className={'navContainer'}>
